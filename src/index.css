@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Andika&family=Fira+Code:wght@300;400;500&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&family=Mukta:wght@200;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Satisfy&family=Yeon+Sung&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  row-gap: .6rem;
+}
+
+form > div > input {
+   border: 2px solid rgb(167, 167, 167);
+   border-radius: 7px;
+   padding: .35rem 1rem;
+   outline: none;
+}
+form > div > input:focus{
+  border: 2px solid rgb(1, 106, 172) !important;
+  outline: none;
+}
